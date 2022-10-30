@@ -125,3 +125,4 @@ export_model = tf.keras.Sequential([
     layers.Activation('sigmoid')])
 export_model.compile(
     loss=keras.losses.BinaryCrossentropy(from_logits=False), optimizer="adam", metrics=['accuracy'])
+    
